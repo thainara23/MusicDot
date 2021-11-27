@@ -19,7 +19,7 @@ function adicionaCurso(checkbox) {
     $tdTotalCursos.textContent = TotalCursos + ' cursos(s)'
 }
 
-$buttonConfirmar.onclik = confirmaMatriculas()
+$buttonConfirmar.onclick = confirmaMatriculas
 
 function confirmaMatriculas() {
     if(TotalCursos == 0) {
